@@ -1,51 +1,85 @@
+/*-------------------- general --------------------*/
 body {
-	background-color: #0ABBB5;
-	background: linear-gradient(to right bottom, #ccf3f1, #0ABBB5, #078681);
+	background-color: #fff;
+	font-family: 'Great Vibes', cursive;
 }
 
-.content {
-	position: fixed;
-	margin-left: -175px;
-	margin-top: -250px;
-    top: 50%; 
-	left: 50%;
-    width: 350px;
-	text-align: center;
-	background-color: #fff;
-	box-shadow: 2px 2px 3px rgba(0, 0, 0,.5);
-	color: #555;
-	padding: 1px;
+#logo {
+	margin: 20px;
+	width: 300px;
+}
+
+@media (max-width: 768px) {
+	.carousel-item img {
+		height: 250px;
+		width: 100%;
+		object-fit: cover;
+	}
 }
 
 h1 {
-	font-family: 'Lobster', cursive;
-	text-align: center;
-	font-size: 34px;
-}
-
-#countdown {
-	background-color: #ccf3f1;
-	padding: 10px;
-}
-#fiances {
-	width: 80;
-	text-align: center;
-	margin: 10px 0 30px 0;
-}
-#logo {
+	text-align: center;	
 	padding: 20px;
+	color: #0ABBB5;
+	text-shadow: 2px 2px #ddd;
 }
 
-/*animation: pulse 2s linear infinite;
--webkit-animation: pulse 2s linear infinite;
-@keyframes pulse {
-	0% { transform: scale(1, 1); }
-	50% { transform: scale(1.5, 1.5); }
-	100% { transform: scale(1, 1); };
+section {
+	padding: 20px 0;
 }
 
-@-webkit-keyframes pulse {
-	0% { transform: scale(1, 1); }
-	50% { transform: scale(1.5, 1.5); }
-	100% { transform: scale(1, 1); };
-}*/
+/*-------------------- groom-and-bride --------------------*/
+#groom-and-bride {
+	text-align: center;
+}
+
+#groom-and-bride img {
+	border: 4px solid #0ABBB5;
+}
+
+.bridge-name, .groom-name {
+	font-size: 2em;
+	color: #0ABBB5;
+}
+
+.save-the-date {
+	padding: 50px 0 30px 0;
+}
+.save-the-date .weeding-weekday {
+	font-size: 4.6em;
+	line-height: 0.6em;
+	color: #F07677;
+}
+.save-the-date .weeding-fullday {
+	font-size: 3.6em;
+}
+.save-the-date #countdown {
+	font-family: Arial;
+	font-size: 1.5em;
+	color: #ababab;
+}
+
+/*-------------------- gift-list --------------------*/
+#gift-list {
+	background-color: #eee;
+}
+
+#gift-list img {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	margin-bottom: 10px;
+}
+
+#gift-list img:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/*-------------------- footer --------------------*/
+section#footer {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+section#footer img {
+	width: 80px;
+	padding: 0 10px;
+}
