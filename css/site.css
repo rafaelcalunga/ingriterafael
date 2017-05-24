@@ -80,6 +80,10 @@ section {
 	}
 }
 
+.hidden-md-up img {
+	width: 100px;
+}
+
 .save-the-date #countdown {
 	font-family: Arial;
 	font-size: 1.5em;
