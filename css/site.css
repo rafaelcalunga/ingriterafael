@@ -40,7 +40,6 @@ section {
 
 /*-------------------- groom-and-bride --------------------*/
 #groom-and-bride {
-	text-align: center;
 	font-family: 'Great Vibes', cursive;
 }
 
@@ -94,20 +93,48 @@ section {
 /*-------------------- gift-list --------------------*/
 #gift-list {
 	background-color: #0ABBB5;
+}
+
+#gift-list .row .col-md-4 {
+	margin-bottom: 20px;
+}
+
+#gift-list h1,
+#gift-list p,
+#gift-list a {
 	color: #fff;
 }
 
-#gift-list h1 {
-	color: #fff;
-}
-
-#gift-list img {
+#gift-list .gift {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	margin-bottom: 10px;
+	border-radius: .25rem;
+	margin-bottom: 5px;
+	height: 160px;
+	background-repeat: no-repeat;
+    background-position: center center;
 }
 
-#gift-list img:hover {
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+#gift-list .box {
+	background-color: #f7aab5;
+	background-image: url(../img/gift-box.png);
+}
+#gift-list .box:hover { background-color: #f58e9d; }
+
+#gift-list .store {
+	background-color: #FDE3A7;
+	background-image: url(../img/pernambucanas.png);
+}
+#gift-list .store:hover { background-color: #f1cd7b; }
+
+/*-------------------- map --------------------*/
+.btn {
+	font-size: 1.20rem;
+	border-radius: 2rem;
+	padding: .75rem 2rem;
+}
+
+#map iframe {
+	margin-top: 15px;
 }
 
 /*-------------------- footer --------------------*/
