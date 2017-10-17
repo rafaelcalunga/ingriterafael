@@ -29,6 +29,11 @@ section {
 	text-align: center;
 }
 
+/*-------------------- movie --------------------*/
+#movie {
+	background-color: #000;
+}
+
 /*-------------------- carousel --------------------*/
 #carousel {
 	background-color: #f6efef;
@@ -91,6 +96,13 @@ section {
 	font-family: Arial;
 	font-size: 1.5em;
 	color: #ababab;
+	padding: 10px;
+}
+
+.save-the-date #just-married {
+	font-family: Arial;
+	font-size: 1.5em;
+	color: #e21d1d;
 	padding: 10px;
 }
 
